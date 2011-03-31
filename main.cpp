@@ -1,7 +1,8 @@
 #include <assert.h>
+#include "queue.h"
 
 int main() {
-  queue<int> Q;
+  ts_queue<int> Q;
   Q.push(8);
   Q.push(7);
   Q.push(6);
