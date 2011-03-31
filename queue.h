@@ -19,8 +19,8 @@ class ts_queue
 		void push(T);
 		void pop();
 		int size();
-		T front();
-		T back();
+		T& front();
+		T& back();
 		bool empty() const;
 		void dump(); // dump output state, for debugging
 };
@@ -67,7 +67,7 @@ int ts_queue<T>::size()
 }
 
 template <class T>
-T ts_queue<T>::front()
+T& ts_queue<T>::front()
 {
 	if (out.empty()) {
 		turnover();
@@ -76,7 +76,7 @@ T ts_queue<T>::front()
 }
 
 template <class T>
-T ts_queue<T>::back()
+T& ts_queue<T>::back()
 {
 	if (in.empty()) {
 		turn_back_over();
