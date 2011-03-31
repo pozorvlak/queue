@@ -28,7 +28,7 @@ class ts_queue
 template <class T>
 void ts_queue<T>::turnover()
 {
-	// sample implementation
+	// sample implementation, O(n)
 	while (!in.empty()) {
 		out.push(in.top());
 		in.pop();
@@ -38,7 +38,7 @@ void ts_queue<T>::turnover()
 template <class T>
 void ts_queue<T>::turn_back_over()
 {
-	// sample implementation
+	// sample implementation, O(n)
 	while (!out.empty()) {
 		in.push(out.top());
 		out.pop();
