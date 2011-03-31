@@ -1,2 +1,2 @@
-redo-ifchange $1.cpp
-g++ -o $3 $1.cpp
+redo-ifchange $1.cpp queue.h
+g++ -c -o $3 $1.cpp
