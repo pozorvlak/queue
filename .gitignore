@@ -1,2 +1,6 @@
 queue_test
 .redo/
+*.o
+*.did
+.do_built
+.do_built.dir/
