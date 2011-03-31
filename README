@@ -1,0 +1,12 @@
+Daft implementation of a queue using two stacks, written to make a point. See
+XXX WRITE BLOG POST for more details.
+
+To build, type
+
+./do
+
+Or, if you have redo installed (http://github.com/apenwarr/redo), type
+
+redo
+
+Look inside the file "test" for dump output.
