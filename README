@@ -1,5 +1,5 @@
 Daft implementation of a queue using two stacks, written to make a point. See
-XXX WRITE BLOG POST for more details.
+http://pozorvlak.livejournal.com/164716.html for more details.
 
 To build, type
 
